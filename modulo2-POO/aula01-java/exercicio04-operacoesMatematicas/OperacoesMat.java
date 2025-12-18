@@ -1,0 +1,31 @@
+// EXERCÍCIO 4: OPERAÇÕES MATEMÁTICAS
+
+// Sua solução aqui:
+import java.util.Scanner;   
+
+public class OperacoesMat {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Digite o segundo número: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Soma: " + (num1 + num2));
+        System.out.println("Subtração: " + (num1 - num2));
+        System.out.println("Multiplicação: " + (num1 * num2));
+        System.out.println("Divisão: " + (num1 / num2));
+    }
+}
+
+// Teste:
+// Digite 10 e 3, deve exibir os resultados
+
+// === RESULTADOS ===
+// Soma: 13
+// Subtração: 7
+// Multiplicação: 30
+// Divisão: 3
+// Resto: 1

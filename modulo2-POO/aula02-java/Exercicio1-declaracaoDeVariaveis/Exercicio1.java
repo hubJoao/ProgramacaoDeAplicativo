@@ -1,4 +1,3 @@
-
 public class Exercicio1 {
     public static void main(String[] args) {
         // TODO: Declare as variáveis
@@ -24,15 +23,3 @@ public class Exercicio1 {
         System.out.println("Percentual de bônus: " + bonusPercentual + "%");
     }
 }
-
-
-
-
-
-//Resultado Esperado:
-// Idade: 25
-//Altura: 1.75
-//Nome: João Silva
-//Ativo: true
-//Inicial: J
-//Desafio Extra: Declare mais 3 variáveis de tipos diferentes e exiba-as.

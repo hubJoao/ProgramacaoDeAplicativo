@@ -1,6 +1,8 @@
     public class Exercicio01{
         public static void main(String[] args){
           int idade=25;
+         // int idade=15;
+         // int idade=65;
             
             //TODO: Verifique se é maior de idade
                 if(idade>=18){
